@@ -1,0 +1,99 @@
+################################## About #####################################
+about:
+  enable : true
+  title : "끊임없는 변화와 혁신을 통해 IT기술과 데이터를 융합하여 새로운 고객가치를 만드는 기업"
+  content : "데이터스는 2020년 설립된 신생회사입니다.<br/> 
+             IT서비스를 통해 대한민국 IT산업이 나가야할 새로운 방향을 제시하여 
+             고객의 서비스가치를 극대화할 수 있도록 기여하겠습니다."
+  button:
+    enable : true
+    label : "Download Company Profile"
+    link : "#"
+      
+################################ feature #####################################
+features:
+  enable : true
+  feature_item:
+    # feature item loop
+    - name : "DataOps 컨설팅"
+      content : "람다아키텍처, HyBridDW, 오픈소스 기반 제품 컨설팅"
+      image : "images/company/features-1.png"
+      
+    # feature item loop
+    - name : "클라우드 아키텍처 설계 및 컨설팅"
+      content : "AWS, GCP, Microsoft Azure, ncloud, TOAST"
+      image : "images/company/features-2.png"
+      
+    # feature item loop
+    - name : "전자정부프레임워크 기반 컨설팅"
+      content : "정보시스템 구축을 위해 필요한 기능 및 아키텍처를 미리 만들어 제공함으로써 효율적인 어플리케이션 구축을 지원"
+      image : "images/company/features-3.png"
+      
+    # feature item loop
+    - name : "BPR/ISP 컨설팅"
+      content : "공공/민간 BRP/ISP 컨설팅"
+      image : "images/company/features-4.png"
+
+################################ service #####################################
+services:
+  enable : true
+  service_item:
+    - name : "컨설팅 및 구축"
+      content : "데이터 관리 컨설팅은 실무 Business 영역의 데이터 생성/활용에서부터 
+                 경영진의 의사결정 영역의 데이터 분석 등 전사 데이터 관리 전략을 수립하고, 
+                 데이터 품질 확보를 위한 IT 인프라 구축(MDM/DQM/ODM) 관련 
+                 제반 컨설팅 서비스를 의미합니다."
+    - name : "ITO (IT Outsourcing)"
+      content : "시스템통합(SI) : 웹서비스통합, 유무선 통합, 멀티 채널 통합 서비스 제공
+                 시스템운영(SM) : 전사 정보화 자원 통합 운영, 웹서비스 통합 운영, 모바일 서비스 운영
+                 어플리케이션 개발 : 유무선 어플리케이션 개발, IOT, AI, 블록체인 기반 어플리케이션 개발
+                 표준방법론 개발 및 적용 : DataUs 표준 개발 방법론 적용, 애자일방법론 활용방법론 개발
+                 품질계획 및 관리 : ISO 9001기반 표준 품질관리계획 및 표준화 관리방법론 적용
+                 정보보호 : ISO 27001기반 표준 정보보호 정책 적용"
+
+#################################### testimonial & mission vision #######################################
+testimonial:
+  enable : true
+  # testimonial content comes from "data/*/homepage.yml" file
+
+mission_vision:
+  enable : true
+  tabs:
+    # tab item loop
+    - name : "Vision"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis ducimus facere repellat
+      harum, eius cupiditate, aliquam aut deserunt. Nemo illo ex impedit autem quod nobis architecto, velit
+      quasi, aut voluptas porro natus. Fuga magnam perspiciatis fugit, placeat possimus officia non ducimus
+      voluptatum aspernatur ad quidem neque accusantium repudiandae cupiditate nobis corporis, cum facere
+      iusto, modi cumque consectetur saepe. Officia, molestiae tempore! Consequatur ipsa consequuntur saepe
+      suscipit vero laudantium, mollitia, quaerat soluta nihil non tempore, quos dignissimos quasi ab officiis
+      illum numquam quibusdam ducimus, veritatis ad. Quia, aliquid. Quaerat quos ducimus ipsam amet minus
+      temporibus eos sequi alias hic nemo."
+      
+    # tab item loop
+    - name : "Mission"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis ducimus facere repellat
+      harum, eius cupiditate, aliquam aut deserunt. Nemo illo ex impedit autem quod nobis architecto, velit
+      quasi, aut voluptas porro natus. Fuga magnam perspiciatis fugit, placeat possimus officia non ducimus
+      voluptatum aspernatur ad quidem neque accusantium repudiandae cupiditate nobis corporis, cum facere
+      iusto, modi cumque consectetur saepe. Officia, molestiae tempore! Consequatur ipsa consequuntur saepe
+      suscipit vero laudantium, mollitia, quaerat soluta nihil non tempore, quos dignissimos quasi ab officiis
+      illum numquam quibusdam ducimus, veritatis ad. Quia, aliquid. Quaerat quos ducimus ipsam amet minus
+      temporibus eos sequi alias hic nemo."
+      
+    # tab item loop
+    - name : "Approach"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis ducimus facere repellat
+      harum, eius cupiditate, aliquam aut deserunt. Nemo illo ex impedit autem quod nobis architecto, velit
+      quasi, aut voluptas porro natus. Fuga magnam perspiciatis fugit, placeat possimus officia non ducimus
+      voluptatum aspernatur ad quidem neque accusantium repudiandae cupiditate nobis corporis, cum facere
+      iusto, modi cumque consectetur saepe. Officia, molestiae tempore! Consequatur ipsa consequuntur saepe
+      suscipit vero laudantium, mollitia, quaerat soluta nihil non tempore, quos dignissimos quasi ab officiis
+      illum numquam quibusdam ducimus, veritatis ad. Quia, aliquid. Quaerat quos ducimus ipsam amet minus
+      temporibus eos sequi alias hic nemo."
+
+
+############################# call to action #################################
+cta:
+  enable : true
+  # call to action content comes from "data/*/homepage.yml"

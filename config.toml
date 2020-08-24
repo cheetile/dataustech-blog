@@ -1,0 +1,151 @@
+################################# Default configuration ###################
+baseURL = "https://cheetile.github.io"
+title = "데이터스 테크 블로그"
+theme = "airspace-hugo"
+# post pagination
+paginate = "4"
+# post excerpt
+summaryLength = "30"
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
+# disable language
+disableLanguages = []
+
+################################# Outputs #################################
+# hugo outputs
+[outputs]
+home = [ "HTML", "RSS"]
+
+# render unsafe html
+[markup.goldmark.renderer]
+unsafe = true
+
+
+#################################### Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/Ionicons/css/ionicons.min.css"
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+
+
+############################### widgets #################################
+
+[params.widgets]
+sidebar = ["taxonomy_category", "taxonomy_tags"]
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+bg_image = "images/sub_hand.jpg"
+# Meta data
+description = "This is meta description"
+author = "dataus"
+# Contact Information
+phone = "+82 010-2734-9488"
+email = "kmwoo@dataus.kr"
+location = "서울특별시 금천구 서부샛길 606 대성디폴리스지식산업센터 (가산동, 제26층 제 B동 2609호)"
+# contact form action
+contact_form_action = "#" # contact form works with : https://formspree.io
+# Google Analitycs
+google_analitycs_id = "" # Your ID# search
+# multi-author support (if set to true, you must use an Array in the author field)
+multi_author = false
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use .png , .svg or .gif format
+
+# Navigation get start button
+[params.nav_button]
+enable = true
+label = "Get A Quote"
+link = "contact"
+
+# google map
+[params.gmap]
+enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+map_latitude = "37.480461"
+map_longitude = "126.877158"
+map_marker = "images/marker.png"
+
+  
+############################# social site ########################
+[[params.social]]
+icon = "ion-social-facebook-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "https://www.facebook.com/dataus2020"
+
+[[params.social]]
+icon = "ion-social-github-outline" #ionicon pack v2 : https://ionicons.com/v2/
+link = "https://github.com/dataus2020"
+
+
+################################ Language ########################
+[Languages.en]
+languageName = "Kr"
+languageCode = "ko-KR"
+contentDir = "content"
+# copyright
+copyright = "&copy; Copyright **DataUs**. All Rights Reserved   \nDesigned by [Themefisher](https://themefisher.com)"
+
+
+######################### Navigation #############################
+# main menu
+[[Languages.en.menu.main]]
+name = "Home"
+URL = "/"
+weight = 1
+
+[[Languages.en.menu.main]]
+name = "About"
+URL = "about"
+weight = 2
+
+[[Languages.en.menu.main]]
+name = "Events"
+URL = "events"
+weight = 3
+
+[[Languages.en.menu.main]]
+name = "Blog"
+URL = "blog"
+weight = 4
+  
+[[Languages.en.menu.main]]
+name = "Contact"
+URL = "contact"
+weight = 5
+
+
+# footer menu
+[[Languages.en.menu.footer]]
+name = "About"
+URL = "about"
+weight = 1
+
+[[Languages.en.menu.footer]]
+name = "Contact"
+URL = "contact"
+weight = 2
